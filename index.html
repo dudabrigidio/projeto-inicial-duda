@@ -7,20 +7,20 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 	<title>Exemplo básico de HTML</title>
 
+	<link rel="stylesheet" href="./css/style.css">
 
 </head>
 	<body>
-		<div class ="container">
-
-			<header class="cabecalho"></header>
+	<span id="topo"></span>
+		<div class="container">
 
 			<header class="cabecalho">
 				<h1>Minha Página</h1>
 				<nav>
 					<ul>
-						<li><a href="./paginas/help.html"> Help </a></li> 
-						<li><a href="./paginas/contact.html"> Contact </a></li>
-						<li><a href="./paginas/about.html"> About </a></li>
+						<li class="link"><a href="./paginas/help.html"> Help </a></li> 
+						<li class="link"><a href="./paginas/about.html"> About </a></li>
+						<li class="link"><a href="#contact"> Contact </a></li>
 					</ul>
 
 				</nav>
@@ -32,7 +32,7 @@
 				<div> 
 					<h2>HELP</h2>
 					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, earum, dolores unde molestiae ab ex praesentium aperiam ipsa enim exercitationem eius? Veritatis aperiam expedita ad esse corporis, excepturi pariatur tempora veniam voluptatem at mollitia. Sed in, molestiae incidunt nam cumque veritatis soluta doloribus pariatur non, distinctio laborum quaerat magnam a cum nostrum molestias nulla inventore aut totam maxime? Possimus maxime neque quia sit, quidem culpa doloremque sunt quisquam provident repellendus rerum tempore saepe quas dolor officia ullam recusandae obcaecati? Dolor exercitationem earum dicta reiciendis et quam deleniti. Nisi molestiae quo reprehenderit fugiat voluptas error cumque sed possimus dolores recusandae. Necessitatibus!
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, voluptatem molestias atque explicabo nostrum repellendus voluptatibus velit, pariatur quidem unde id tempore quas quo, nobis tempora inventore. Pariatur alias nihil, sapiente molestiae officia perferendis voluptate quia distinctio magni maxime animi harum iure dolor voluptates consectetur! Incidunt, ipsa aspernatur! Minima quis assumenda iure autem repellendus quaerat. Nesciunt enim, culpa ut consequatur iure rem sed suscipit ex. Cum quaerat quis numquam nesciunt aliquam nam laudantium fugit molestiae dolore quae, libero dolor esse est iste exercitationem eum omnis totam ullam rem error, expedita officia autem praesentium eius. Harum, magnam! Earum nobis accusamus ipsa?
 					</p>
 					<a href="./paginas/help.html" ></a>
 				</div>
@@ -43,7 +43,7 @@
 					</p>
 					<a href="./paginas/about.html"></a>
 				</div>
-				<div>
+				<div id="contact">
 					<h2>CONTACT</h2>
 					<form>
 						<fieldset>
@@ -62,12 +62,13 @@
 							</div>
 
 						</fieldset>
+						<a href="#topo">Voltar</a>
 					</form>
 				</div>
 
 			</section>
 
-			<footer id ="rodape">
+			<footer id="rodape">
 				<nav>
 					<li><a href="https://github.com/" target="_blank">Github</a></li>
 					<li><a href="https://www.google.com.br/" target="_blank">Google></ahref=></li>
@@ -78,6 +79,7 @@
 					&copy; Minha Página 2024 - Todos os direitos reservados.
 				</p>
 				
+
 			</footer>
 
 		</div>

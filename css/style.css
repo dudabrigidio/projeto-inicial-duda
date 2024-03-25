@@ -3,5 +3,9 @@
 
 /*Esta é uma regra CSS3*/
 h1 /*seletor*/ {
-    color: red;
+    color: rgb(0, 195, 255);
+}
+.link{
+    display: inline;
+    margin: 5%;
 }
