@@ -6,7 +6,7 @@ h1 /*seletor*/ {
     background-color: rgb(127, 189, 234);
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align:center;
 }
 
 h1, h2 {
@@ -41,8 +41,20 @@ p {
 }
 
 #formulario button {
-    background-color: rgb(127, 189, 234); /* Define a cor de fundo como azul */
-    color: white; /* Define a cor do texto como branco */
+    background-color: rgb(127, 189, 234); 
+    color: white; 
 
 }
 
+#rodape {
+    border-top: 2px  solid rgb(216, 79, 79); /
+}
+
+.cabecalho {
+    background-color: rgb(127, 189, 234); 
+    color: white; 
+    padding: 20px;
+}
+.cabecalho nav ul li a {
+    color: white; 
+}
