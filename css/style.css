@@ -35,3 +35,14 @@ nav ul li a {
     border: 1px solid rgb(65, 64, 64); 
     padding: 10px;
 }
+
+p {
+    color:rgb(120, 139, 101)
+}
+
+#formulario button {
+    background-color: rgb(127, 189, 234); /* Define a cor de fundo como azul */
+    color: white; /* Define a cor do texto como branco */
+
+}
+
