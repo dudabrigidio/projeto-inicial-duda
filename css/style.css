@@ -26,3 +26,12 @@ nav ul li a {
 .container {
     padding: 20px;
 }
+
+#conteudo {
+    line-height: 1.5;
+}
+
+#formulario {
+    border: 1px solid rgb(65, 64, 64); 
+    padding: 10px;
+}
