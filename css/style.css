@@ -57,4 +57,5 @@ p {
 }
 .cabecalho nav ul li a {
     color: white; 
+    text-decoration: none;
 }
